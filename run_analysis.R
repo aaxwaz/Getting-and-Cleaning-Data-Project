@@ -1,7 +1,7 @@
 install.packages('data.table')
 library(data.table)
 
-#step 1 - please ensure files are inside your working directory
+#step 1 - please ensure all files are inside your working directory
 
 train = read.table('X_train.txt')
 test = read.table('X_test.txt')
