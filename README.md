@@ -11,13 +11,25 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Usage:
 ---------------
 1) Data files that will need to be placed inside the working directory are: 
+
     X_train.txt
+    
     y_train.txt
+    
     X_test.txt
+    
     y_test.txt
+    
     subject_test.txt
+    
     subject_train.txt
     
+    
 2) output file that will be generated upon completion: 
+
     finalResult.txt
     
+
+Requirements:
+---------------
+This code will require R and data.table package. It has been tested under Windows
