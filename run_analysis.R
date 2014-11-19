@@ -1,7 +1,7 @@
 install.packages('data.table')
 library(data.table)
 
-#step 1 - please ensure all files are inside your working directory
+#step 1 - please ensure files are inside your working directory
 
 train = read.table('X_train.txt')
 test = read.table('X_test.txt')
@@ -18,7 +18,7 @@ data = cbind(data, y)
 
 colsOfMean = c(1,2,3,41,42,43,81,82,83,121,122,123,161,162,163,201,214,227,240,253,266,267,268,345,346,347,424,425,426,503,516,529,542)
 colsOfStd = c(4,5,6,44,45,46,84,85,86,124,125,126,164,165,166,202,215,228,241,254,269,270,271,348,349,350,427,428,429,504,517,530,543)
-colsRemained = c(colsOfMean, colsOfStd, 562)
+colsRemained = c(colsOfMean, colsOfStd, 562) 
 data = data[colsRemained]
 
 #step 3 - Use descriptive names for activities column
@@ -29,19 +29,19 @@ data[,67] = sapply(data[,67], intToName)
 
 #step 4 - Use descriptive names for variables 
 
-newColsNamesForMean = c('timeBodyAccelerationMean_X','timeBodyAccelerationMean_Y', 'timeBodyAccelerationMean_Z', 'timeGravityAccelerationMean_X', 'timeGravityAccelerationMean_Y', 'timeGravityAccelerationMean_Z', 'timeBodyAccelerationJerkMean_X', 'timeGravityAccelerationMean_Y', 'timeGravityAccelerationMean_Z', 'timeBodyGyroMean_X', 'timeBodyGyroMean_Y', 'timeBodyGyroMean_Z', 'timeBodyGyroJerkMean_X', 'timeBodyGyroJerkMean_Y', 'timeBodyGyroJerkMean_Z', 'timeBodyAccelerationMagnitudeMean', 'timeGravityAccelerationMagnitudeMean', 'timeBodyAccelerationJerkMagnitudeMean', 'timeBodyGyroMagnitudeMean', 'timeBodyGyroJerkMagnitudeMean', 'freqBodyAccelerationMean_X', 'freqBodyAccelerationMean_Y', 'freqBodyAccelerationMean_Z', 'freqBodyAccelerationJerkMean_X', 'freqBodyAccelerationJerkMean_Y', 'freqBodyAccelerationJerkMean_Z', 'freqBodyGyroMean_X', 'freqBodyGyroMean_Y', 'freqBodyGyroMean_Z', 'freqBodyAccelerationMagintudeMean', 'freqBodyBodyAccelerationJerkMagnitudeMean', 'freqBodyBodyGyroMagnitudeMean', 'freqBodyBodyGyroJerkMagnitudeMean')
-newColsNamesForStd = c('timeBodyAccelerationStd_X','timeBodyAccelerationStd_Y', 'timeBodyAccelerationStd_Z', 'timeGravityAccelerationStd_X', 'timeGravityAccelerationStd_Y', 'timeGravityAccelerationStd_Z', 'timeBodyAccelerationJerkStd_X', 'timeGravityAccelerationStd_Y', 'timeGravityAccelerationStd_Z', 'timeBodyGyroStd_X', 'timeBodyGyroStd_Y', 'timeBodyGyroStd_Z', 'timeBodyGyroJerkStd_X', 'timeBodyGyroJerkStd_Y', 'timeBodyGyroJerkStd_Z', 'timeBodyAccelerationMagnitudeStd', 'timeGravityAccelerationMagnitudeStd', 'timeBodyAccelerationJerkMagnitudeStd', 'timeBodyGyroMagnitudeStd', 'timeBodyGyroJerkMagnitudeStd', 'freqBodyAccelerationStd_X', 'freqBodyAccelerationStd_Y', 'freqBodyAccelerationStd_Z', 'freqBodyAccelerationJerkStd_X', 'freqBodyAccelerationJerkStd_Y', 'freqBodyAccelerationJerkStd_Z', 'freqBodyGyroStd_X', 'freqBodyGyroStd_Y', 'freqBodyGyroStd_Z', 'freqBodyAccelerationMagintudeStd', 'freqBodyBodyAccelerationJerkMagnitudeStd', 'freqBodyBodyGyroMagnitudeStd', 'freqBodyBodyGyroJerkMagnitudeStd')
+newColsNamesForMean = c('timeBodyAccelerationMean_X','timeBodyAccelerationMean_Y', 'timeBodyAccelerationMean_Z', 'timeGravityAccelerationMean_X', 'timeGravityAccelerationMean_Y', 'timeGravityAccelerationMean_Z', 'timeBodyAccelerationJerkMean_X', 'timeGravityAccelerationMean_Y', 'timeGravityAccelerationMean_Z', 'timeBodyGyroMean_X', 'timeBodyGyroMean_Y', 'timeBodyGyroMean_Z', 'timeBodyGyroJerkMean_X', 'timeBodyGyroJerkMean_Y', 'timeBodyGyroJerkMean_Z', 'timeBodyAccelerationMagnitudeMean', 'timeGravityAccelerationMagnitudeMean', 'timeBodyAccelerationJerkMagnitudeMean', 'timeBodyGyroMagnitudeMean', 'timeBodyGyroJerkMagnitudeMean', 'freqBodyAccelerationMean_X', 'freqBodyAccelerationMean_Y', 'freqBodyAccelerationMean_Z', 'freqBodyAccelerationJerkMean_X', 'freqBodyAccelerationJerkMean_Y', 'freqBodyAccelerationJerkMean_Z', 'freqBodyGyroMean_X', 'freqBodyGyroMean_Y', 'freqBodyGyroMean_Z', 'freqBodyAccelerationMagintudeMean', 'freqBodyAccelerationJerkMagnitudeMean', 'freqBodyGyroMagnitudeMean', 'freqBodyGyroJerkMagnitudeMean')
+newColsNamesForStd = c('timeBodyAccelerationStd_X','timeBodyAccelerationStd_Y', 'timeBodyAccelerationStd_Z', 'timeGravityAccelerationStd_X', 'timeGravityAccelerationStd_Y', 'timeGravityAccelerationStd_Z', 'timeBodyAccelerationJerkStd_X', 'timeGravityAccelerationStd_Y', 'timeGravityAccelerationStd_Z', 'timeBodyGyroStd_X', 'timeBodyGyroStd_Y', 'timeBodyGyroStd_Z', 'timeBodyGyroJerkStd_X', 'timeBodyGyroJerkStd_Y', 'timeBodyGyroJerkStd_Z', 'timeBodyAccelerationMagnitudeStd', 'timeGravityAccelerationMagnitudeStd', 'timeBodyAccelerationJerkMagnitudeStd', 'timeBodyGyroMagnitudeStd', 'timeBodyGyroJerkMagnitudeStd', 'freqBodyAccelerationStd_X', 'freqBodyAccelerationStd_Y', 'freqBodyAccelerationStd_Z', 'freqBodyAccelerationJerkStd_X', 'freqBodyAccelerationJerkStd_Y', 'freqBodyAccelerationJerkStd_Z', 'freqBodyGyroStd_X', 'freqBodyGyroStd_Y', 'freqBodyGyroStd_Z', 'freqBodyAccelerationMagintudeStd', 'freqBodyAccelerationJerkMagnitudeStd', 'freqBodyGyroMagnitudeStd', 'freqBodyGyroJerkMagnitudeStd')
 newColsNames = c(newColsNamesForMean, newColsNamesForStd, 'ActivityNames')
 colnames(data) = newColsNames
 
 #Step 5 - Create a secondary data.table - DT - and group by "Subject" and "ActivityNames" columns, with function "mean" applied for each variable
 
-#combine the "subject" column, put it on the left-most, and name it as 'Subject'
+#Step 5.1 combine the "subject" column, put it on the left-most, and name it as 'Subject'
 subject = rbind(train_subject, test_subject)
 data = cbind(subject, data)
 colnames(data)[1] = 'Subject'
 
-#Group by 'Subject' and 'ActivityNames', and calculate the mean on the rest columns, 
+#Step 5.2 Group by 'Subject' and 'ActivityNames', and calculate the mean on the rest columns, 
 #and finally order by 'Subject' column. 
 #The data.table package is being used here
 DT = data.table(data)
