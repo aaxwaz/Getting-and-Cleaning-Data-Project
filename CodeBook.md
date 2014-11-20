@@ -1,4 +1,4 @@
-# Code Book
+# Getting and Cleaning Data Project Code Book
 **NAMING CONVENTION** 
 
 Variables starting with “t” or “f” represent measurements in time and frequency domain, respectively. 
