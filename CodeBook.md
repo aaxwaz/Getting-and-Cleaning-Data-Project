@@ -1,4 +1,4 @@
-                                       #Getting and Analysis Data Project
+                                       # Getting and Analysis Data Project
                                        *Using Samsung Smartphone Data Set*
                                        
 **NAMING CONVENTION** 
