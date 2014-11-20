@@ -18,3 +18,14 @@ An identifier of the subject who carried out the experiment. Ranges from 1 to 30
 
 Its activity label. 6 levels: WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, LAYING
 
+###### tBodyAcc.mean_X	
+
+Mean value of body acceleration in time domain along X-axis 
+
+###### tBodyAcc.mean_Y	
+
+Mean value of body acceleration in time domain along Y-axis 
+
+###### tBodyAcc.mean_Z	
+
+Mean value of body acceleration in time domain along Z-axis 
