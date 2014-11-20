@@ -1,5 +1,4 @@
-                                       # Getting and Analysis Data Project
-                                       *Using Samsung Smartphone Data Set*
+                                       # this is a header  
                                        
 **NAMING CONVENTION** 
 
