@@ -1,5 +1,4 @@
-                                       # this is a header  
-                                       
+
 **NAMING CONVENTION** 
 
 Variables starting with “t” or “f” represent measurements in time and frequency domain, respectively. 
