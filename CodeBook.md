@@ -11,7 +11,10 @@ Variables with “_X”, “_Y” or “_Z” pending at the end represent measu
 **VARIABLES** 
 
 Subject 
+
 An identifier of the subject who carried out the experiment. Ranges from 1 to 30
 
 ActivityNames
+
 Its activity label. 6 levels: WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, LAYING
+
