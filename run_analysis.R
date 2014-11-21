@@ -40,13 +40,12 @@ selectedNames = c(selectedNames, 'ActivityNames')
 colnames(data) = selectedNames
 
 #Step 5 - Create a secondary data.table - DT - and group by "Subject" and "ActivityNames" columns, with function "mean" applied for each variable
-
-#Step 5a Combine the "subject" column, put it on the left-most, and name it as 'Subject'
+#5a Combine the "subject" column on the left-most
 subject = rbind(train_subject, test_subject)
 data = cbind(subject, data)
 colnames(data)[1] = 'Subject'
 
-#Step 5b Group by 'Subject' and 'ActivityNames', and calculate the mean on the other columns, 
+#5b Group by 'Subject' and 'ActivityNames', and calculate the mean for the other columns, 
 #and finally order by 'Subject' column. (PS: The "data.table" package is being used here)
 DT = data.table(data)
 DT <- DT[, lapply(.SD,mean), by=c('Subject', 'ActivityNames')]
