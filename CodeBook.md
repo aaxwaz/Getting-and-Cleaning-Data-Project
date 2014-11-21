@@ -16,275 +16,275 @@ Variables with “_X”, “_Y” or “_Z” pending at the end represent measu
 
 **VARIABLES** 
 
-###### Subject 
+###### Subject (INT)
 
 An identifier of the subject who carried out the experiment. Ranges from 1 to 30
 
-###### ActivityNames
+###### ActivityNames (FACTOR)
 
 Its activity label. 6 levels: WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-###### tBodyAcc.mean_X	
+###### tBodyAcc.mean_X (DOUBLE)
 
 Mean value of body acceleration in time domain along X-axis 
 
-###### tBodyAcc.mean_Y	
+###### tBodyAcc.mean_Y (DOUBLE)
 
 Mean value of body acceleration in time domain along Y-axis 
 
-###### tBodyAcc.mean_Z	
+###### tBodyAcc.mean_Z (DOUBLE)
 
 Mean value of body acceleration in time domain along Z-axis 
 
-###### tGravityAcc.mean_X	
+###### tGravityAcc.mean_X (DOUBLE)	
 
 Mean value of gravity acceleration in time domain along X-axis 
 
-###### tGravityAcc.mean_Y	
+###### tGravityAcc.mean_Y (DOUBLE)	
 
 Mean value of gravity acceleration in time domain along Y-axis 
 
-###### tGravityAcc.mean_Z	
+###### tGravityAcc.mean_Z (DOUBLE)	
 
 Mean value of gravity acceleration in time domain along Z-axis 
 
-###### tBodyAccJerk.mean_X	
+###### tBodyAccJerk.mean_X (DOUBLE)	
 
 Mean value of body acceleration jerk in time domain along X-axis 
 
-###### tBodyAccJerk.mean_Y	
+###### tBodyAccJerk.mean_Y (DOUBLE)	
 
 Mean value of body acceleration jerk in time domain along Y-axis 
 
-###### tBodyAccJerk.mean_Z	
+###### tBodyAccJerk.mean_Z (DOUBLE)	
 
 Mean value of body acceleration jerk in time domain along Z-axis 
 
-###### tBodyGyro.mean_X	
+###### tBodyGyro.mean_X	(DOUBLE)
 
 Mean value of angular velocity in time domain along X-axis 
 
-###### tBodyGyro.mean_Y
+###### tBodyGyro.mean_Y (DOUBLE)
 
 Mean value of angular velocity in time domain along Y-axis 
 
-###### tBodyGyro.mean_Z
+###### tBodyGyro.mean_Z (DOUBLE)
 
 Mean value of angular velocity in time domain along Z-axis 
 
-###### tBodyGyroJerk.mean_X
+###### tBodyGyroJerk.mean_X (DOUBLE)
 
 Mean value of angular velocity jerk in time domain along X-axis 
 
-###### tBodyGyroJerk.mean_Y
+###### tBodyGyroJerk.mean_Y (DOUBLE)
 
 Mean value of angular velocity jerk in time domain along Y-axis 
 
-###### tBodyGyroJerk.mean_Z
+###### tBodyGyroJerk.mean_Z (DOUBLE)
 
 Mean value of angular velocity jerk in time domain along Z-axis 
 
-###### tBodyAccMag.mean     
+###### tBodyAccMag.mean (DOUBLE)    
 
 Mean value of body acceleration magnitude in time domain
 
-###### tGravityAccMag.mean  
+###### tGravityAccMag.mean (DOUBLE) 
 
 Mean value of gravity acceleration magnitude in time domain
 
-###### tBodyAccJerkMag.mean
+###### tBodyAccJerkMag.mean (DOUBLE)
 
 Mean value of body acceleration magnitude jerk in time domain
 
-###### tBodyGyroMag.mean
+###### tBodyGyroMag.mean (DOUBLE)
 
 Mean value of angular velocity magnitude in time domain
 
-######	tBodyGyroJerkMag.mean
+######	tBodyGyroJerkMag.mean (DOUBLE)
 	
 Mean value of angular velocity jerk magnitude in time domain
 	
-######	fBodyAcc.mean_X
+######	fBodyAcc.mean_X (DOUBLE)
 	
 Mean value of body acceleration in freq domain along X-axis 
 	
-######	fBodyAcc.mean_Y   
+######	fBodyAcc.mean_Y (DOUBLE)   
 	
 Mean value of body acceleration in freq domain along Y-axis 
 	
-######	fBodyAcc.mean_Z       
+######	fBodyAcc.mean_Z (DOUBLE)       
 	
 Mean value of body acceleration in freq domain along Z-axis 
 	
-######	fBodyAccJerk.mean_X
+######	fBodyAccJerk.mean_X (DOUBLE)
 	
 Mean value of body acceleration jerk in freq domain along X-axis 
 	
-######	fBodyAccJerk.mean_Y
+######	fBodyAccJerk.mean_Y (DOUBLE)
 	
 Mean value of body acceleration jerk in freq domain along Y-axis 
 	
-######	fBodyAccJerk.mean_Z 
+######	fBodyAccJerk.mean_Z (DOUBLE)
 	
 Mean value of body acceleration jerk in freq domain along Z-axis 
 	
-######	fBodyGyro.mean_X     
+######	fBodyGyro.mean_X (DOUBLE)     
 	
 Mean value of angular velocity in freq domain along X-axis 
 	
-######	fBodyGyro.mean_Y    
+######	fBodyGyro.mean_Y (DOUBLE)   
 	
 Mean value of angular velocity in freq domain along Y-axis 
 	
-######	fBodyGyro.mean_Z      
+######	fBodyGyro.mean_Z (DOUBLE)     
 	
 Mean value of angular velocity in freq domain along Z-axis 
 	
-######	fBodyAccMag.mean     
+######	fBodyAccMag.mean (DOUBLE)    
 	
 Mean value of body acceleration magnitude in freq domain
 	
-######	fAccJerkMag.mean      
+######	fAccJerkMag.mean (DOUBLE)     
 	
 Mean value of acceleration jerk magnitude in freq domain
 	
-######	fGyroMag.mean      
+######	fGyroMag.mean (DOUBLE)     
 	
 Mean value of angular magnitude in freq domain
 	
-######	fGyroJerkMag.mean     
+######	fGyroJerkMag.mean (DOUBLE)    
 	
 Mean value of angular jerk magnitude in freq domain
 	
-######	tBodyAcc.std_X     
+######	tBodyAcc.std_X (DOUBLE)    
 	
 Standard deviation of body acceleration in time domain along X-axis 
 	
-######	tBodyAcc.std_Y
+######	tBodyAcc.std_Y (DOUBLE)
 	
 Standard deviation of body acceleration in time domain along Y-axis 
 	
-######	tGravityAcc.std_X
+######	tGravityAcc.std_X (DOUBLE)
 
 Standard deviation of gravity acceleration in time domain along X-axis
 	
-######	tGravityAcc.std_Z
+######	tGravityAcc.std_Z (DOUBLE)
 	
 Standard deviation of gravity acceleration in time domain along Z-axis
 	
-######	tBodyAccJerk.std_Y
+######	tBodyAccJerk.std_Y (DOUBLE)
 	
 Standard deviation of body acceleration jerk in time domain along Y-axis
 	
-######	tBodyGyro.std_X
+######	tBodyGyro.std_X (DOUBLE)
 	
 Standard deviation of angular velocity in time domain along X-axis
 	
-######	tBodyGyro.std_Z
+######	tBodyGyro.std_Z (DOUBLE)
 	
 Standard deviation of angular velocity in time domain along Z-axis
 	
-######	tBodyGyroJerk.std_Y
+######	tBodyGyroJerk.std_Y (DOUBLE)
 	
 Standard deviation of angular velocity jerk in time domain along Y-axis
 	
-######	tBodyAccMag.std
+######	tBodyAccMag.std (DOUBLE)
 	
 Standard deviation of body acceleration magnitude in time domain
 	
-######	tBodyAccJerkMag.std
+######	tBodyAccJerkMag.std (DOUBLE)
 	
 Standard deviation of body acceleration jerk magnitude in time domain
 	
-######	tBodyGyroJerkMag.std
+######	tBodyGyroJerkMag.std (DOUBLE)
 	
 Standard deviation of angular velocity jerk magnitude in time domain
 	
-######	fBodyAcc.std_Y
+######	fBodyAcc.std_Y (DOUBLE)
 	
 Standard deviation of body acceleration magnitude in freq domain along Y-axis
 	
-######	fBodyAccJerk.std_X
+######	fBodyAccJerk.std_X (DOUBLE)
 	
 Standard deviation of body acceleration jerk in freq domain along X-axis
 	
-######	fBodyAccJerk.std_Z
+######	fBodyAccJerk.std_Z (DOUBLE)
 	
 Standard deviation of body acceleration jerk in freq domain along Z-axis
 	
-######	fBodyGyro.std_Y
+######	fBodyGyro.std_Y (DOUBLE)
 	
 Standard deviation of angular velocity in freq domain along Y-axis
 	
-######	fBodyAccMag.std
+######	fBodyAccMag.std (DOUBLE)
 	
 Standard deviation of body acceleration magnitude in freq domain
 	
-######	fGyroMag.std
+######	fGyroMag.std (DOUBLE)
 	
 Standard deviation of angular magnitude in freq domain
 	
-######	tBodyAcc.std_Z
+######	tBodyAcc.std_Z (DOUBLE)
 	
 Standard deviation of body acceleration in time domain along Z-axis
 	
-######	tGravityAcc.std_Y
+######	tGravityAcc.std_Y (DOUBLE)
 	
 Standard deviation of gravity acceleration in time domain along Y-axis
 	
-######	tBodyAccJerk.std_X
+######	tBodyAccJerk.std_X (DOUBLE)
 	
 Standard deviation of body acceleration jerk in time domain along X-axis
 	
-######	tBodyAccJerk.std_Z
+######	tBodyAccJerk.std_Z (DOUBLE)
 	
 Standard deviation of body acceleration jerk in time domain along Z-axis
 	
-######	tBodyGyro.std_Y
+######	tBodyGyro.std_Y (DOUBLE)
 	
 Standard deviation of angular velocity in time domain along Y-axis
 	
-######	tBodyGyroJerk.std_X
+######	tBodyGyroJerk.std_X (DOUBLE)
 	
 Standard deviation of angular velocity jerk in time domain along X-axis
 	
-######	tBodyGyroJerk.std_Z
+######	tBodyGyroJerk.std_Z (DOUBLE)
 	
 Standard deviation of angular velocity jerk in time domain along Z-axis
 	
-######	tGravityAccMag.std
+######	tGravityAccMag.std (DOUBLE)
 	
 Standard deviation of gravity acceleration magnitude in time domain
 	
-######	tBodyGyroMag.std
+######	tBodyGyroMag.std (DOUBLE)
 	
 Standard deviation of angular velocity magnitude in time domain
 	
-######	fBodyAcc.std_X
+######	fBodyAcc.std_X (DOUBLE)
 	
 Standard deviation of body acceleration in freq domain along X-axis
 	
-######	fBodyAcc.std_Z
+######	fBodyAcc.std_Z (DOUBLE)
 	
 Standard deviation of body acceleration in freq domain along Z-axis
 	
-######	fBodyAccJerk.std_Y
+######	fBodyAccJerk.std_Y (DOUBLE)
 	
 Standard deviation of body acceleration jerk in freq domain along Y-axis
 	
-######	fBodyGyro.std_X
+######	fBodyGyro.std_X (DOUBLE)
 	
 Standard deviation of angular velocity in freq domain along X-axis
 	
-######	fBodyGyro.std_Z
+######	fBodyGyro.std_Z (DOUBLE)
 	
 Standard deviation of angular velocity in freq domain along Z-axis
 	
-######	fAccJerkMag.std
+######	fAccJerkMag.std (DOUBLE)
 	
 Standard deviation of acceleration jerk magnitude in freq domain
 	
-######	fGyroJerkMag.std
+######	fGyroJerkMag.std (DOUBLE)
 
 Standard deviation of angular jerk magnitude in freq domain
 
