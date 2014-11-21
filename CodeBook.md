@@ -1,4 +1,9 @@
 # Getting and Cleaning Data Project Code Book
+**OVERVIEW** 
+
+This code book summarizes variables appearing in the "finalResult.txt", which you will get after running "run_analysis.R" script. The names have been originally extracted from "features.txt", and transformed into a consistent naming convention described below. 
+
+
 **NAMING CONVENTION** 
 
 Variables starting with “t” or “f” represent measurements in time and frequency domain, respectively. 
