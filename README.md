@@ -31,7 +31,7 @@ Usage:
     
 3) To view the data, please use below line in R to read finalResult.txt from your working directory: 
 
-viewResult = read.table('finalResult.txt', header=T)
+    viewResult = read.table('finalResult.txt', header=T)
 
 Requirements:
 ---------------
